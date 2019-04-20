@@ -1,0 +1,47 @@
+.section-header{
+    width: 100%;
+}
+.header-container{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 60px;
+    height: 70px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.22);
+}
+.header-title h1{
+    margin: 0;
+}.header-title{
+    margin-left: 94px;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}.blue{
+    color:#1298dd;
+}.grey{
+    color: #8d8d8d;
+}
+.links{
+    width: 500px;
+    height: 100%;
+    margin-left: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link-item{
+    color: #676767;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-item:hover{
+    background-image: url('../../img-view/blueBg.png');
+    color: white;
+}
+
